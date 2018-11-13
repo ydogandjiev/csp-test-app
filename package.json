@@ -1,8 +1,19 @@
 {
   "name": "csp-test-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ydogandjiev/csp-test-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ydogandjiev/csp-test-app/issues"
+  },
+  "homepage": "https://github.com/ydogandjiev/csp-test-app#readme",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "helmet-csp": "^2.7.1",
