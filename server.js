@@ -8,6 +8,7 @@ app.use(csp({
     blockAllMixedContent: true,
     frameSrc: [
       "https:",
+      "mailto:",
       "sip:",
       "tel:"
     ]
